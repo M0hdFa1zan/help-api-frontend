@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  font-family: GT America Standard;
+}
+
+@font-face {
+  font-family: GT America Standard;
+  src: url(../public/Assets/Fonts/GT-America/GT-America-Standard-Regular-Trial.otf);
+}

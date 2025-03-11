@@ -1,0 +1,69 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    background-color: black;
+    height: 400px;
+}
+
+.contain-footer {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.sub-head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    line-height: 28px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    line-height: 24px;
+}
+
+.one div:hover,
+.two div:hover,
+.three div:hover,
+.four div:hover,
+.five div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.five div:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.contact {
+    margin-top: 25px;
+}
+
+.us {
+    font-weight: 600;
+}
+
+.five {
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    line-height: 28px;
+    height: 10px;
+}
+
+.foot-logo {
+    display: flex;
+    width: 35px;
+    margin-bottom: 20px;
+}
+
+.foot-logo img {
+    width: 100%;
+}

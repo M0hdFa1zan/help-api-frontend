@@ -1,0 +1,33 @@
+.cardlist {
+    width: 100%;
+    background-color: white;
+    margin: 40px 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30%;
+}
+
+.keycard {
+    border-radius: 10px;
+    border: 2px solid #E9EEF3;
+    background-color: #f4f6f8;
+    margin: 40px;
+    padding: 24px 24px 40px 24px;
+}
+
+.keycard:hover {
+    scale: 1.1;
+    transition: .4s;
+}
+
+.card-title {
+    width: 100%;
+    border-bottom: 2px solid #E9EEF3;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-detail {
+    font-size: 20px;
+}
