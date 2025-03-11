@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080';  // Update this to your API's base URL
+const API_URL = 'https://help-api-backend.onrender.com';  // Update this to your API's base URL
 
 export const getAllCards = async () => {
     try {
